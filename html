@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta name="description" content="A page for exploring basic HTML documents">
+
+
+
+<title>SFU Grade Calculator</title>
+
+<link rel = "stylesheet"  href = "styles.css"></style>
+
+
+
+</head>
+ <body>
+ <script src = "javascript"></script>
+ <h1>Grade Calculator</h1>
+ <div>
+ <h3 > Activites </h3>
+<p>Give grades to the numeric activities.</p>
+
+<table style="border: 0.5px solid black";>
+ <tr>
+   <th>Name</th>
+   <th>Short name</th>
+   <th>Weight</th>
+	<th>Grade</th>
+	<th>Percent</th>
+ </tr>
+ <tr>
+   <td>Activity 1</td>
+   <td>A1</td>
+   <td><input type="text" id = "a1_weight" ></input> </td>
+	<td> <input id = "a1_recievedgrade" type ="text"></input>/<input id = "a1_totalgrade" type = "text"></input></td>
+	<td><p id = a1_result></p></td>
+ </tr>
+ <tr>
+   <td>Activity 2</td>
+   <td>A2</td>
+   <td><input type="text" id = "a2_weight" ></input> </td>
+	<td> <input id = "a2_recievedgrade" type ="text"></input>/<input id = "a2_totalgrade" type = "text"></input></td>
+	<td><p id = a2_result></p></td>
+</tr>
+<tr>
+	<td>Activity 3</td>
+   <td>A3</td>
+   <td><input type="text" id = "a3_weight" ></input> </td>
+	<td id = > <input id = "a3_recievedgrade" type ="text"></input>/<input id = "a3_totalgrade" type = "text"></input></td>
+	<td><p id = a3_result></p></td>
+
+</tr>
+<tr>
+	<td>Activity 4</td>
+   <td>A4</td>
+   <td><input type="text" id = "a4_weight"></input> </td>
+	<td><input id = "a4_recievedgrade" type ="text"></input>/<input id = "a4_totalgrade" type = "text"></input></td>
+	<td><p id = a4_result></p></td>
+
+</tr>
+
+</table>
+<h3> Result </h3><p id = "mean" align : "right" > </p> &nbsp;&nbsp;&nbsp; <p id="weight" ></p> 
+
+
+
+
+<p id="pass" >  </p>
+
+<p align="right">
+<button type="button" onclick = "Get_weight()"> WEIGHTED</button>&nbsp;&nbsp;&nbsp; <button type="button" onclick = "Get_mean()">MEAN</button>
+</p>
+
+</div>
+
+</div>
+
+<script  src = "scripts.js"> </script>
+
+</body>
+</html>
+
